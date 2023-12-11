@@ -16,6 +16,8 @@ The system supports different user roles, including regular users and administra
 * Admins have access to additional features and capabilities.
 ### User Reviews and Ratings
 Besides add products to shop cart and order, our platform allows users to share their experiences by providing reviews and ratings for products.
+### Update information allowed
+users can update their profile and password anytime
 ## Getting Started
 Install dependencies
 ```
