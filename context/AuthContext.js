@@ -27,7 +27,19 @@ export const AuthProvider = ({ children }) => {
       );
 
       if (data?.user) {
-        router.push("/");
+        const res = await signIn("credentials", {
+          email,
+          password,
+          redirect: false,
+        });
+    
+        if (res?.error) {
+          toast.error(data?.error);
+        }
+    
+        if (res?.ok) {
+          router.push("/");
+        }
       }
     } catch (error) {
       setError(error?.response?.data?.message);
