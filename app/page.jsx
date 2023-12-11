@@ -4,6 +4,10 @@ import ListProducts from "@/components/products/ListProducts";
 
 import queryString from "query-string";
 
+export const metadata = {
+  title: "Next.js 13 Ecommerce App",
+};
+
 const getProducts = async (searchParams) => {
   const urlParams = {
     keyword: searchParams.keyword,
@@ -13,19 +17,13 @@ const getProducts = async (searchParams) => {
     "price[lte]": searchParams.max,
     "ratings[gte]": searchParams.ratings,
   };
-
   const searchQuery = queryString.stringify(urlParams);
-
   const { data } = await axios.get(
     `${process.env.API_URL}/api/products?${searchQuery}`
   );
   return data;
 };
-
 const HomePage = async ({ searchParams }) => {
   const productsData = await getProducts(searchParams);
-
   return <ListProducts data={productsData} />;
 };
-
-export default HomePage;
