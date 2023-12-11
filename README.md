@@ -4,12 +4,12 @@ BuySmart is a dynamic web application built with Next.js, Express, and MongoDB, 
 
 ## Features
 ### User Authentication and Registration
-Users can log in or register to access personalized features. If user choose not log in, they can still view the details of products, but will need to log in when add to shop cart or else features.
+Users can log in or register to access personalized features. If user choose not log in, they can still view the details of products, but will need to log in when try to order or other features.
 Admin authentication can be added in MongoDB, this role can edit and delete all info needed in website including deatils of products for example prices and etc.
 ### Product Viewing
 Users, whether logged in or not, can view product details and search products by keywords, ratings, and Categories without any restrictions.
 ### Product Buying
-Users will need to log in or register an account to add to cart and make purchanse.
+Users will need to log in or register an account to make purchanse.
 ### User Roles
 The system supports different user roles, including regular users and administrators. They will have their own profile page and could be checked by others.
 ### Admin Privileges
