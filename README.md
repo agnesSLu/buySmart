@@ -1,3 +1,7 @@
+## Overview:
+BuySmart is a dynamic web application built with Next.js, Express, and MongoDB, providing a seamless user experience for online shopping. The platform features user authentication, allowing users to register, log in, and explore a wide range of products without the need for an account. The project implements a role-based access control system, distinguishing between regular users and administrators.
+
+
 ## Features
 ### User Authentication and Registration
 Users can log in or register to access personalized features. If user choose not log in, use can still view the details of products, but will need to log in when add to shop cart or else features.
