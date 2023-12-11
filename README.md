@@ -8,6 +8,8 @@ Users can log in or register to access personalized features. If user choose not
 Admin authentication can be added in MongoDB, this role can edit and delete all info needed in website including deatils of products for example prices and etc.
 ### Product Viewing
 Users, whether logged in or not, can view product details and search products by keywords, ratings, and Categories without any restrictions.
+### Product buying
+Users will need to log in or register an account to add to cart and make purchanse.
 ### User Roles
 The system supports different user roles, including regular users and administrators. They will have their own profile page and could be checked by others.
 ### Admin Privileges
