@@ -34,7 +34,7 @@ The development server will be accessible at http://localhost:3000.
 ## Database Schema
 Our project utilizes MongoDB as the database, and it includes the following tables:
 * Users Table: This table stores user information, including details like username, email, user roles and etc.
-  ```
+```
   {
   "_id": {
     "$oid": ""
@@ -48,9 +48,10 @@ Our project utilizes MongoDB as the database, and it includes the following tabl
   },
   "__v": 
 }
-  ```
+```
+
 * Address Table: This data will be updated if someone ordered in our website.
-  ```
+```
   {
   "_id": {
     "$oid": ""
@@ -69,7 +70,7 @@ Our project utilizes MongoDB as the database, and it includes the following tabl
   },
   "__v": 0
 }
-  ```
+```
 * Orders Table: This data will be updated if someone ordered in our website.
 * Products Table: This table contains information about the products available on the platform.
 ```
