@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useContext, useEffect } from "react";
 import CustomPagination from "../layouts/CustomPagination";
 import OrderContext from "@/context/OrderContext";
+import { toast } from "react-toastify";
 
 const Orders = ({ orders }) => {
   const { deleteOrder, error, clearErrors } = useContext(OrderContext);

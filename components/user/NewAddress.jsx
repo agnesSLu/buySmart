@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useContext, useEffect } from "react";
+import { toast } from "react-toastify";
 
 import Sidebar from "../layouts/Sidebar";
 
@@ -17,7 +18,7 @@ const NewAddress = () => {
   const [state, setState] = useState("");
   const [zipCode, setZipCode] = useState("");
   const [phoneNo, setPhonoNo] = useState("");
-  const [country, setCountry] = useState("");
+  const [country, setCountry] = useState(countriesList[0].name);
 
   useEffect(() => {
     if (error) {

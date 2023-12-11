@@ -1,90 +1,100 @@
-[
-  {
-    "name": "Shure SM7B Cardioid Dynamic Microphone",
-    "price": 349,
-    "description": "The Shure SM7B is a cardioid dynamic microphone that is designed for use in a variety of settings, including live performances, podcasting, and home recording. It features a smooth, flat, wide-range frequency response and a built-in pop filter and shock mount for reduced noise and handling noise.",
-    "category": "Electronics",
-    "seller": "Shure",
-    "stock": 5,
-    "images": [
-      {
-        "public_id": "buysmart/products/gclqht0hjco0jyy9s2bx",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/qdilqh5oizvnwfu2bkzq",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/cjtvzn5crbcyddo2hlai",
-        "url": ""
-      }
-    ],
-    "reviews": [],
-    "ratings": 4.5
+[{
+  "_id": {
+    "$oid": "6576795b4ccf37430a51d26d"
   },
-  {
-    "name": "AmazonBasics Desktop Mini Condenser Microphone",
-    "price": 12.99,
-    "description": "The AmazonBasics Desktop Mini Condenser Microphone is a compact and affordable option for recording vocals, instruments, and more. It features a cardioid polar pattern for improved sound isolation and a built-in stand for easy placement. Compatible with most devices with a 3.5mm jack.",
-    "category": "Electronics",
-    "seller": "AmazonBasics",
-    "stock": 1000,
-    "images": [
-      {
-        "public_id": "buysmart/products/fqxj6dfj5r8s4oaagz0l",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/e12y4ylevohb5usvw06x",
-        "url": ""
-      }
-    ],
-    "reviews": [],
-    "ratings": 3.5
+  "name": "Shure SM7B Cardioid Dynamic Microphone",
+  "price": 349,
+  "description": "The Shure SM7B is a cardioid dynamic microphone that is designed for use in a variety of settings, including live performances, podcasting, and home recording. It features a smooth, flat, wide-range frequency response and a built-in pop filter and shock mount for reduced noise and handling noise.",
+  "category": "Electronics",
+  "seller": "Shure",
+  "stock": 5,
+  "images": [
+    {
+      "public_id": "buysmart/products/gclqht0hjco0jyy9s2bx",
+      "url": "https://m.media-amazon.com/images/I/71LYHO3+wnL._AC_SY450_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/qdilqh5oizvnwfu2bkzq",
+      "url": "https://m.media-amazon.com/images/I/711jyzz2kqL._AC_SL1399_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/cjtvzn5crbcyddo2hlai",
+      "url": "https://m.media-amazon.com/images/I/61zy7v5u81L._AC_SL1080_.jpg"
+    }
+  ],
+  "reviews": [],
+  "ratings": 4.5
+},
+{
+  "_id": {
+    "$oid": "6576795b4ccf37430a51d26e"
   },
-  {
-    "name": "KOORUI Business Computer Monitor Display",
-    "price": 139.99,
-    "description": "The KOORUI Business Computer Monitor Display is a 27-inch LED monitor that features a 1080P resolution and a wide viewing angle. It has a sleek and slim design with a thickness of only 7mm and a frameless design. The monitor supports VESA mount and it is compatible with most computer systems.",
-    "category": "Laptops",
-    "seller": "KOORUI",
-    "stock": 1000,
-    "images": [
-      {
-        "public_id": "buysmart/products/jpp9bg2uaywrq4kpyzlo",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/yuvap3tajtqe5wbuhlxz",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/hqu1oeutqwsxxs0vnupz",
-        "url": ""
-      }
-    ],
-    "reviews": [],
-    "ratings": 2.5
+  "name": "AmazonBasics Desktop Mini Condenser Microphone",
+  "price": 12.99,
+  "description": "The AmazonBasics Desktop Mini Condenser Microphone is a compact and affordable option for recording vocals, instruments, and more. It features a cardioid polar pattern for improved sound isolation and a built-in stand for easy placement. Compatible with most devices with a 3.5mm jack.",
+  "category": "Electronics",
+  "seller": "AmazonBasics",
+  "stock": 1000,
+  "images": [
+    {
+      "public_id": "buysmart/products/fqxj6dfj5r8s4oaagz0l",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71BL7UWvFkL._AC_SL1500_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/e12y4ylevohb5usvw06x",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81JIAB56t9L._AC_SL1500_.jpg"
+    }
+  ],
+  "reviews": [],
+  "ratings": 3.5
+},
+{
+  "_id": {
+    "$oid": "6576795b4ccf37430a51d26f"
   },
-  {
-    "name": "Beats Solo3 Wireless On-Ear Headphones",
-    "price": 199.95,
-    "description": "The Beats Solo3 Wireless On-Ear Headphones are a premium set of headphones that feature Bluetooth connectivity, up to 40 hours of battery life, and on-ear controls for adjusting volume and switching tracks. They have a sleek, stylish design and come in a variety of colors. They also have a built-in microphone for taking calls and use the Apple W1 chip for easy and stable connectivity with Apple devices.",
-    "category": "Headphones",
-    "seller": "Beats by Dr. Dre",
-    "stock": 500,
-    "images": [
-      {
-        "public_id": "buysmart/products/yctoxcyf8qgre4uoobnv",
-        "url": ""
-      },
-      {
-        "public_id": "buysmart/products/wbrj0ivayqajozzkeb51",
-        "url": ""
-      }
-    ],
-    "reviews": [],
-    "ratings": 2
-  }
-]
+  "name": "KOORUI Business Computer Monitor Display",
+  "price": 139.99,
+  "description": "The KOORUI Business Computer Monitor Display is a 27-inch LED monitor that features a 1080P resolution and a wide viewing angle. It has a sleek and slim design with a thickness of only 7mm and a frameless design. The monitor supports VESA mount and it is compatible with most computer systems.",
+  "category": "Laptops",
+  "seller": "KOORUI",
+  "stock": 1000,
+  "images": [
+    {
+      "public_id": "buysmart/products/jpp9bg2uaywrq4kpyzlo",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71TOE0w7DzL._AC_SL1500_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/yuvap3tajtqe5wbuhlxz",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71+GhN5VStL._AC_SL1500_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/hqu1oeutqwsxxs0vnupz",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/7149YlwMCbL._AC_SL1500_.jpg"
+    }
+  ],
+  "reviews": [],
+  "ratings": 2.5
+},
+{
+  "_id": {
+    "$oid": "6576795b4ccf37430a51d270"
+  },
+  "name": "Beats Solo3 Wireless On-Ear Headphones",
+  "price": 199.95,
+  "description": "The Beats Solo3 Wireless On-Ear Headphones are a premium set of headphones that feature Bluetooth connectivity, up to 40 hours of battery life, and on-ear controls for adjusting volume and switching tracks. They have a sleek, stylish design and come in a variety of colors. They also have a built-in microphone for taking calls and use the Apple W1 chip for easy and stable connectivity with Apple devices.",
+  "category": "Headphones",
+  "seller": "Beats by Dr. Dre",
+  "stock": 500,
+  "images": [
+    {
+      "public_id": "buysmart/products/yctoxcyf8qgre4uoobnv",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51PbyjVSxsL._AC_SL1000_.jpg"
+    },
+    {
+      "public_id": "buysmart/products/wbrj0ivayqajozzkeb51",
+      "url": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51t7Xt1P7oL._AC_SL1000_.jpg"
+    }
+  ],
+  "reviews": [],
+  "ratings": 2
+}]
