@@ -76,30 +76,30 @@ Our project utilizes MongoDB as the database, and it includes the following tabl
 ```
 {
   "_id": {
-    "$oid": "657685509a71dde98022789a"
+    "$oid": ""
   },
-  "name": "Shure SM7B Cardioid Dynamic Microphone",
-  "price": 349,
-  "description": "The Shure SM7B is a cardioid dynamic microphone that is designed for use in a variety of settings, including live performances, podcasting, and home recording. It features a smooth, flat, wide-range frequency response and a built-in pop filter and shock mount for reduced noise and handling noise.",
-  "category": "Electronics",
-  "seller": "Shure",
-  "stock": 5,
+  "name": "",
+  "price": ,
+  "description": "",
+  "category": "",
+  "seller": "",
+  "stock": ,
   "images": [
     {
-      "public_id": "buysmart/products/gclqht0hjco0jyy9s2bx",
+      "public_id": "",
       "url": ""
     },
     {
-      "public_id": "buysmart/products/qdilqh5oizvnwfu2bkzq",
+      "public_id": "",
       "url": ""
     },
     {
-      "public_id": "buysmart/products/cjtvzn5crbcyddo2hlai",
+      "public_id": "",
       "url": ""
     }
   ],
-  "reviews": [],
-  "ratings": 4.5
+  "reviews": ,
+  "ratings": 
 }
 ```
 
