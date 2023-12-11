@@ -45,7 +45,7 @@ const ProductItem = ({ product }) => {
           <div className="p-4">
             <Link
               href={`/product/${product._id}`}
-              className="hover:text-blue-600"
+              className="hover:text-red-800"
             >
               {product.name}
             </Link>
@@ -79,7 +79,7 @@ const ProductItem = ({ product }) => {
             <p className="text-green-500">Free Shipping</p>
             <div className="my-3">
               <a
-                className="px-4 py-2 inline-block text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 cursor-pointer"
+                className="px-4 py-2 inline-block text-white bg-red-800 border border-transparent rounded-md hover:bg-red-700 cursor-pointer"
                 onClick={addToCartHandler}
               >
                 {" "}

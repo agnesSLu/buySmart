@@ -21,7 +21,7 @@ const Sidebar = () => {
               {" "}
               <Link
                 href="/admin/products/new"
-                className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+                className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
               >
                 New Product <span className="text-red-500">(Admin)</span>
               </Link>
@@ -31,7 +31,7 @@ const Sidebar = () => {
               {" "}
               <Link
                 href="/admin/products"
-                className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+                className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
               >
                 All Products <span className="text-red-500">(Admin)</span>
               </Link>
@@ -41,7 +41,7 @@ const Sidebar = () => {
               {" "}
               <Link
                 href="/admin/orders"
-                className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+                className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
               >
                 All Orders <span className="text-red-500">(Admin)</span>
               </Link>
@@ -51,7 +51,7 @@ const Sidebar = () => {
               {" "}
               <Link
                 href="/admin/users"
-                className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+                className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
               >
                 All Users <span className="text-red-500">(Admin)</span>
               </Link>
@@ -65,7 +65,7 @@ const Sidebar = () => {
           {" "}
           <Link
             href="/me"
-            className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+            className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-red-200 rounded-md"
           >
             Your Profile
           </Link>
@@ -74,7 +74,7 @@ const Sidebar = () => {
           {" "}
           <Link
             href="/me/orders"
-            className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+            className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
           >
             Orders
           </Link>
@@ -83,7 +83,7 @@ const Sidebar = () => {
           {" "}
           <Link
             href="/me/update"
-            className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+            className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
           >
             Update Profile
           </Link>
@@ -92,7 +92,7 @@ const Sidebar = () => {
           {" "}
           <Link
             href="/me/update_password"
-            className="block px-3 py-2 text-gray-800 hover:bg-blue-100 hover:text-blue-500 rounded-md"
+            className="block px-3 py-2 text-gray-800 hover:bg-green-200 hover:text-green-500 rounded-md"
           >
             Update Password
           </Link>
@@ -101,7 +101,7 @@ const Sidebar = () => {
         <li>
           {" "}
           <a
-            className="block px-3 py-2 text-red-800 hover:bg-red-100 hover:text-white-500 rounded-md cursor-pointer"
+            className="block px-3 py-2 text-red-800 hover:bg-yellow-100 hover:text-white-500 rounded-md cursor-pointer"
             onClick={logoutHandler}
           >
             Logout

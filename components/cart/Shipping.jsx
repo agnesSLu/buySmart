@@ -55,7 +55,7 @@ const Shipping = ({ addresses }) => {
                 <div class="grid sm:grid-cols-2 gap-4 mb-6">
                   {addresses?.map((address) => (
                     <label
-                      class="flex p-3 border border-gray-200 rounded-md bg-gray-50 hover:border-blue-400 hover:bg-blue-50 cursor-pointer"
+                      class="flex p-3 border border-gray-200 rounded-md bg-gray-50 hover:border-green-400 hover:bg-blue-50 cursor-pointer"
                       onClick={() => setShippingAddress(address)}
                     >
                       <span>
@@ -89,7 +89,7 @@ const Shipping = ({ addresses }) => {
                 <div className="flex justify-end space-x-2 mt-10">
                   <Link
                     href="/cart"
-                    className="px-5 py-2 inline-block text-gray-700 bg-white shadow-sm border border-gray-200 rounded-md hover:bg-gray-100 hover:text-blue-600"
+                    className="px-5 py-2 inline-block text-gray-700 bg-white shadow-sm border border-gray-200 rounded-md hover:bg-gray-100 hover:text-yellow-600"
                   >
                     Back
                   </Link>
