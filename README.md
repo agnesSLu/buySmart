@@ -34,9 +34,73 @@ The development server will be accessible at http://localhost:3000.
 ## Database Schema
 Our project utilizes MongoDB as the database, and it includes the following tables:
 * Users Table: This table stores user information, including details like username, email, user roles and etc.
+  ```
+  {
+  "_id": {
+    "$oid": ""
+  },
+  "name": "",
+  "email": "",
+  "password": "",
+  "role": "",
+  "createdAt": {
+    "$date": ""
+  },
+  "__v": 
+}
+  ```
 * Address Table: This data will be updated if someone ordered in our website.
+  ```
+  {
+  "_id": {
+    "$oid": ""
+  },
+  "street": "",
+  "city": "",
+  "state": "",
+  "phoneNo": "",
+  "zipCode": "",
+  "country": "",
+  "user": {
+    "$oid": ""
+  },
+  "createdAt": {
+    "$date": ""
+  },
+  "__v": 0
+}
+  ```
 * Orders Table: This data will be updated if someone ordered in our website.
 * Products Table: This table contains information about the products available on the platform.
+```
+{
+  "_id": {
+    "$oid": "657685509a71dde98022789a"
+  },
+  "name": "Shure SM7B Cardioid Dynamic Microphone",
+  "price": 349,
+  "description": "The Shure SM7B is a cardioid dynamic microphone that is designed for use in a variety of settings, including live performances, podcasting, and home recording. It features a smooth, flat, wide-range frequency response and a built-in pop filter and shock mount for reduced noise and handling noise.",
+  "category": "Electronics",
+  "seller": "Shure",
+  "stock": 5,
+  "images": [
+    {
+      "public_id": "buysmart/products/gclqht0hjco0jyy9s2bx",
+      "url": ""
+    },
+    {
+      "public_id": "buysmart/products/qdilqh5oizvnwfu2bkzq",
+      "url": ""
+    },
+    {
+      "public_id": "buysmart/products/cjtvzn5crbcyddo2hlai",
+      "url": ""
+    }
+  ],
+  "reviews": [],
+  "ratings": 4.5
+}
+```
 
 
 ## API Routes
