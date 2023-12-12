@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    appDir: true,
-    images: {
+  env: {
+    API_URL: "https://buysmart-backend.onrender.com",
+  },
+  images: {
       domains: ["m.media-amazon.com"],
     },
   };
