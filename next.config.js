@@ -2,6 +2,7 @@
 const nextConfig = {
   env: {
     API_URL: "https://buy-smart-backend.vercel.app",
+    NEXTAUTH_URL: "https://buy-smart-backend.vercel.app"
   },
   images: {
       domains: ["m.media-amazon.com"],
